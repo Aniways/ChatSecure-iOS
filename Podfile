@@ -13,3 +13,5 @@ pod 'SIAlertView', :podspec => 'PodSpecs/SIAlertView.podspec'
 pod "SSKeychain"
 pod "UIAlertView-Blocks"
 pod 'gtm-oauth2', '~> 0.0.3'
+
+pod 'Aniways', :git => 'git@github.com:Aniways/aniways-pod.git', :tag => '2.0.0'
