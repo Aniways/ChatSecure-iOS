@@ -22,6 +22,10 @@
 
 /* Begin PBXBuildFile section */
 		1A86AD5E18C3EF39001110D7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1A86AD5D18C3EF39001110D7 /* Podfile */; };
+		30D8B7E018D998B8001D01CF /* AW_icon_keyboardbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D8B7DC18D998B8001D01CF /* AW_icon_keyboardbutton.png */; };
+		30D8B7E118D998B8001D01CF /* AW_icon_keyboardbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D8B7DD18D998B8001D01CF /* AW_icon_keyboardbutton@2x.png */; };
+		30D8B7E218D998B8001D01CF /* AW_keyboard_iconbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D8B7DE18D998B8001D01CF /* AW_keyboard_iconbutton.png */; };
+		30D8B7E318D998B8001D01CF /* AW_keyboard_iconbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D8B7DF18D998B8001D01CF /* AW_keyboard_iconbutton@2x.png */; };
 		6300F15A16E6C30200D3C1AA /* OTRXMPPManagedPresenceSubscriptionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321870B16E6C23200CB4D3C /* OTRXMPPManagedPresenceSubscriptionRequest.m */; };
 		6300F15C16E6C30800D3C1AA /* _OTRXMPPManagedPresenceSubscriptionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321870916E6C21100CB4D3C /* _OTRXMPPManagedPresenceSubscriptionRequest.m */; };
 		6300F16316E6CCD400D3C1AA /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 6300F16116E6CCD400D3C1AA /* inbox.png */; };
@@ -536,6 +540,10 @@
 		1AE5185918C3B45900946594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = en; path = OTR_Codesigning.xcconfig; sourceTree = "<group>"; };
 		1AE5186518C3B53C00946594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = en; path = OTR_Release.xcconfig; sourceTree = "<group>"; };
 		1AE5189718C3CA1000946594 /* OTR_Codesigning.xcconfig.sample */ = {isa = PBXFileReference; lastKnownFileType = text; path = OTR_Codesigning.xcconfig.sample; sourceTree = "<group>"; };
+		30D8B7DC18D998B8001D01CF /* AW_icon_keyboardbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AW_icon_keyboardbutton.png; path = "media/app-images/aniways/AW_icon_keyboardbutton.png"; sourceTree = SOURCE_ROOT; };
+		30D8B7DD18D998B8001D01CF /* AW_icon_keyboardbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AW_icon_keyboardbutton@2x.png"; path = "media/app-images/aniways/AW_icon_keyboardbutton@2x.png"; sourceTree = SOURCE_ROOT; };
+		30D8B7DE18D998B8001D01CF /* AW_keyboard_iconbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AW_keyboard_iconbutton.png; path = "media/app-images/aniways/AW_keyboard_iconbutton.png"; sourceTree = SOURCE_ROOT; };
+		30D8B7DF18D998B8001D01CF /* AW_keyboard_iconbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AW_keyboard_iconbutton@2x.png"; path = "media/app-images/aniways/AW_keyboard_iconbutton@2x.png"; sourceTree = SOURCE_ROOT; };
 		6300F16116E6CCD400D3C1AA /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
 		6300F16216E6CCD400D3C1AA /* inbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inbox@2x.png"; sourceTree = "<group>"; };
 		6300F16516E6CF8400D3C1AA /* OTRSubscriptionRequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRSubscriptionRequestsViewController.h; sourceTree = "<group>"; };
@@ -2997,6 +3005,10 @@
 		D9FCA7291533A37F009AD599 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				30D8B7DC18D998B8001D01CF /* AW_icon_keyboardbutton.png */,
+				30D8B7DD18D998B8001D01CF /* AW_icon_keyboardbutton@2x.png */,
+				30D8B7DE18D998B8001D01CF /* AW_keyboard_iconbutton.png */,
+				30D8B7DF18D998B8001D01CF /* AW_keyboard_iconbutton@2x.png */,
 				63B046E1185BD2780066C8E5 /* button-green.png */,
 				63B046E2185BD2780066C8E5 /* button-green@2x.png */,
 				639C75D417E127A600530423 /* FBLoginViewButton.png */,
@@ -3321,9 +3333,11 @@
 				D99071B3151EB5C6002CECC9 /* 19-gear@2x.png in Resources */,
 				D99071B4151EB5C6002CECC9 /* 112-group@2x.png in Resources */,
 				D9A7E0A315242D4100EEDDB5 /* ipad.png in Resources */,
+				30D8B7E018D998B8001D01CF /* AW_icon_keyboardbutton.png in Resources */,
 				D9A7E0A515242D4600EEDDB5 /* ipad@2x.png in Resources */,
 				D9A7E0A715242D6400EEDDB5 /* Default-Portrait~ipad.png in Resources */,
 				D9A7E0A915242D6800EEDDB5 /* Default-Portrait@2x~ipad.png in Resources */,
+				30D8B7E118D998B8001D01CF /* AW_icon_keyboardbutton@2x.png in Resources */,
 				D9A7E0AB15242D8C00EEDDB5 /* Default-Landscape~ipad.png in Resources */,
 				633B6D0217ECF4F7002DA152 /* googleTalkButtonPressed@2x.png in Resources */,
 				D9A7E0AD15242D9000EEDDB5 /* Default-Landscape@2x~ipad.png in Resources */,
@@ -3347,7 +3361,9 @@
 				D9BE44A1166F2E7D00A628C7 /* 29-heart.png in Resources */,
 				D9BE44A2166F2E7D00A628C7 /* 29-heart@2x.png in Resources */,
 				D9BE44A5166F2F5B00A628C7 /* 18-envelope@2x.png in Resources */,
+				30D8B7E218D998B8001D01CF /* AW_keyboard_iconbutton.png in Resources */,
 				637A6C1818B6EBB7007DE155 /* xmpp.png in Resources */,
+				30D8B7E318D998B8001D01CF /* AW_keyboard_iconbutton@2x.png in Resources */,
 				63BE44D917EE5AB300F60670 /* 31-circle-plus-large@2x.png in Resources */,
 				63F2585717FB51C2007A7565 /* google.cer in Resources */,
 				D9BE44A6166F2F5B00A628C7 /* 18-envelope.png in Resources */,

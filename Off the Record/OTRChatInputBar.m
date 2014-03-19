@@ -16,6 +16,8 @@
 #import "Strings.h"
 #import "OTRConstants.h"
 
+#import <Aniways/AWIconOnDemandButton.h>
+
 
 @implementation OTRChatInputBar
 
@@ -40,6 +42,7 @@
         [self addSubview:self.textView];
         [self addSubview:self.textViewBackgroundImageView];
         
+        [self addSubview:[self createAniwaysIconOnDemandButton]];
         
         [self checkSaveButton];
         
@@ -75,7 +78,7 @@
 {
     if(!_textView) {
         CGFloat rightEdge = self.sendButton.frame.origin.x - 8;
-        _textView = [[HPGrowingTextView alloc] initWithFrame:CGRectMake(6, 4, rightEdge-6, 34)];
+        _textView = [[HPGrowingTextView alloc] initWithFrame:CGRectMake(6, 4, rightEdge-26, 34)];
         _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         
         _textView.isScrollable = NO;
@@ -181,5 +184,31 @@
         [self.delegate inputBarDidBeginEditing:self];
     }
 }
+
+#pragma Aniways Icon On Demand
+-(AWIconOnDemandButton *)createAniwaysIconOnDemandButton
+{
+    AWIconOnDemandButton *iconOnDemandButton = [AWIconOnDemandButton new];
+    [iconOnDemandButton setImage:[UIImage imageNamed:@"AW_keyboard_iconbutton"] forState:UIControlStateNormal];
+    [iconOnDemandButton addTarget:self action:@selector(iconButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    iconOnDemandButton.tag = 0;
+    iconOnDemandButton.textview = (AWTextView *)self.textView.internalTextView;
+    iconOnDemandButton.frame = CGRectMake(self.sendButton.frame.origin.x - 24, self.sendButton.frame.origin.y, 20, self.sendButton.frame.size.height);
+    
+    return iconOnDemandButton;
+}
+
+-(void)iconButtonClicked:(id)sender{
+    AWIconOnDemandButton* button = (AWIconOnDemandButton*) sender;
+    if(button.tag == 0){
+        [button setImage:[UIImage imageNamed:@"AW_icon_keyboardbutton"] forState:UIControlStateNormal];
+        button.tag = 1;
+    }
+    else{
+        [button setImage:[UIImage imageNamed:@"AW_keyboard_iconbutton"] forState:UIControlStateNormal];
+        button.tag = 0;
+    }
+}
+
 
 @end

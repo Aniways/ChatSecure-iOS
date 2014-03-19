@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "TTTAttributedLabel.h"
+#import <Aniways/AWLabel.h>
+
 
 @interface OTRChatBubbleView : UIView
 {
@@ -21,7 +22,7 @@
 
 @property (nonatomic, strong) UIImageView * messageBackgroundImageView;
 @property (nonatomic, strong) UIImageView * deliveredImageView;
-@property (nonatomic, strong) TTTAttributedLabel * messageTextLabel;
+@property (nonatomic, strong) AWLabel * messageTextLabel;
 @property (nonatomic) BOOL isIncoming;
 @property (nonatomic) BOOL isDelivered;
 

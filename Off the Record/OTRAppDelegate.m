@@ -46,6 +46,9 @@
 #import "OTRLog.h"
 #import "DDTTYLogger.h"
 
+#import <Aniways/AWInit.h>
+
+
 @implementation OTRAppDelegate
 
 @synthesize window = _window;
@@ -54,6 +57,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [AWInit initAniwaysWithAppId:@"sampleApp"];
+    
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     
     [[BITHockeyManager sharedHockeyManager] configureWithBetaIdentifier:kOTRHockeyBetaIdentifier

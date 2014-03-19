@@ -14,6 +14,9 @@
 #import "OTRSafariActionSheet.h"
 #import "OTRAppDelegate.h"
 
+#import <Aniways/AWLabel.h>
+
+
 #define MESSAGE_DELIVERED_LABEL_HEIGHT       (DeliveredFontSize +7)
 #define MESSAGE_SENT_DATE_LABEL_HEIGHT       (SentDateFontSize+7)
 #define MESSAGE_SENT_DATE_LABEL_TAG          100
@@ -45,9 +48,8 @@
         //Create bubbleView
         self.bubbleView = [[OTRChatBubbleView alloc] initWithFrame:CGRectZero];
         self.bubbleView.isIncoming = newMessage.isIncomingValue;
-        TTTAttributedLabel * label = [OTRMessageTableViewCell defaultLabel];
+        AWLabel * label = [OTRMessageTableViewCell defaultLabel];
         label.text = newMessage.message;
-        label.delegate = self;
         self.bubbleView.messageTextLabel = label;
         
         [self.contentView addSubview:self.bubbleView];
@@ -167,19 +169,18 @@
 
 +(CGSize)messageTextLabelSize:(NSString *)message
 {
-    TTTAttributedLabel * label = [OTRMessageTableViewCell defaultLabel];
+    AWLabel * label = [OTRMessageTableViewCell defaultLabel];
     label.text = message;
     return  [label sizeThatFits:CGSizeMake(MESSAGE_TEXT_WIDTH_MAX, CGFLOAT_MAX)];
 }
 
 
-+(TTTAttributedLabel *)defaultLabel
++(AWLabel *)defaultLabel
 {
-    TTTAttributedLabel * messageTextLabel = [[TTTAttributedLabel alloc] initWithFrame:CGRectZero];
+    AWLabel * messageTextLabel = [[AWLabel alloc] initWithFrame:CGRectZero];
     messageTextLabel.tag = MESSAGE_TEXT_LABEL_TAG;
     messageTextLabel.backgroundColor = [UIColor clearColor];
     messageTextLabel.numberOfLines = 0;
-    messageTextLabel.dataDetectorTypes = UIDataDetectorTypeLink;
     messageTextLabel.lineBreakMode = NSLineBreakByWordWrapping;
     
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
@@ -216,7 +217,7 @@
     if (showDate) {
         dateHeight = SentDateFontSize+5;
     }
-    TTTAttributedLabel * label = [self defaultLabel];
+    AWLabel * label = [self defaultLabel];
     label.text = message;
     CGSize labelSize = [label sizeThatFits:CGSizeMake(180, CGFLOAT_MAX)];
     return labelSize.height + 12.0 + dateHeight;
