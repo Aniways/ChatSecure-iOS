@@ -17,7 +17,7 @@ PODS:
   - AFNetworking/Serialization (2.0.3)
   - AFNetworking/UIKit (2.0.3):
     - AFNetworking/NSURLConnection
-  - Aniways (2.0)
+  - Aniways (2.0.4)
   - Appirater (2.0.2)
   - CocoaLumberjack (1.8.1):
     - CocoaLumberjack/Extensions
@@ -25,23 +25,12 @@ PODS:
   - CocoaLumberjack/Extensions (1.8.1):
     - CocoaLumberjack/Core
   - DAKeyboardControl (2.3.0)
-  - Facebook-iOS-SDK (3.12.0)
-  - gtm-oauth2 (0.0.3):
-    - gtm-oauth2/Core
-    - GTMHTTPFetcher
+  - Facebook-iOS-SDK (3.13.0)
+  - gtm-oauth2 (0.0.4):
+    - GTMHTTPFetcher (~> 0.0.1)
     - SBJson (~> 3.2)
-  - gtm-oauth2/Core (0.0.3):
-    - gtm-oauth2/Core/Mac
-    - gtm-oauth2/Core/Touch
-    - GTMHTTPFetcher
+  - GTMHTTPFetcher (0.0.3):
     - SBJson (~> 3.2)
-  - gtm-oauth2/Core/Mac (0.0.3):
-    - GTMHTTPFetcher
-    - SBJson (~> 3.2)
-  - gtm-oauth2/Core/Touch (0.0.3):
-    - GTMHTTPFetcher
-    - SBJson (~> 3.2)
-  - GTMHTTPFetcher (0.1.0)
   - HockeySDK (3.5.4)
   - HPGrowingTextView (1.1)
   - MagicalRecord (2.2):
@@ -55,7 +44,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (= 2.0.3)
-  - Aniways (from `git@github.com:Aniways/aniways-pod.git`, tag `2.0.0`)
+  - Aniways (from `git@github.com:Aniways/aniways-pod.git`, branch `verizon-pod`)
   - Appirater
   - CocoaLumberjack
   - DAKeyboardControl (~> 2.3)
@@ -71,21 +60,21 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   Aniways:
+    :branch: verizon-pod
     :git: git@github.com:Aniways/aniways-pod.git
-    :tag: 2.0.0
   SIAlertView:
     :podspec: PodSpecs/SIAlertView.podspec
 
 SPEC CHECKSUMS:
   AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
-  Aniways: db74434d9098dcf76dd53700d66a5082ef55dce4
+  Aniways: 80e6e722211378807722cf5ae2e768431332e567
   Appirater: 32fb9089615b5e542c7ad7b5749741a8aed55290
   CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
   DAKeyboardControl: 219d6e32b9343eb85151255c43b1f238d8f0bbf7
-  Facebook-iOS-SDK: c09f7d80db5c48170ff834bc03ebe774c49d1f5b
-  gtm-oauth2: 6528b10a61eb9b6710f6277341e2926371a12c15
-  GTMHTTPFetcher: 1ec07b08bc1df7bf37ad32b3c2adefa020a4b644
-  HockeySDK: 4f7f7e15c1f594e8ca1e16a09f04e7418289de7a
+  Facebook-iOS-SDK: 5788541337dc88265bc940cb5ffb05915f9b64e3
+  gtm-oauth2: 30600f0033c359f31d0e7a0e31c074a90353ece0
+  GTMHTTPFetcher: bca306f50fec6a263d8de7493398657db255952a
+  HockeySDK: aa28abb106de7804d31acf515f2c9aa4e6481fd0
   HPGrowingTextView: 4318f557b33c19def1c53ec275d6e2a2d6589cd0
   MagicalRecord: 95d49d74ef752cd52f6ad87bcb474817fc3978cf
   MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622

@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AWKeyboardIconSize</key>
+	<integer>44</integer>
 	<key>AWEnableLogging</key>
 	<true/>
 	<key>LSApplicationCategoryType</key>
@@ -53,7 +55,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.chrisballinger.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.aniways.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

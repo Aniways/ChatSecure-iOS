@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F0641FE2-7BD4-4C45-8159-7485C421E4D8</string>
+	<string>FFF37980-4F82-4E49-952B-7D65CAD81702</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Off the Record</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -22,12 +22,12 @@
 		<string>ssh://github.com/ChatSecure/OTRKit.git</string>
 		<key>6D6982A5-6FA9-4221-ADD0-43AFF144E3AA</key>
 		<string>ssh://github.com/ChatSecure/OpenInChrome.git</string>
+		<key>8B4CC983-FA70-43EF-95E0-B6D266E16A9F</key>
+		<string>ssh://github.com/Aniways/ChatSecure-iOS.git</string>
 		<key>91F12FBD-CA8B-4996-989A-115F266E576C</key>
 		<string>ssh://github.com/ChatSecure/MWFeedParser.git</string>
 		<key>9A2C466B-FCE6-46DD-A514-91EF22CEC37C</key>
 		<string>git://github.com/stig/json-framework.git</string>
-		<key>A7DB03EB-517F-421D-A9D1-7767E83A9865</key>
-		<string>https://github.com/chrisballinger/ChatSecure-iOS.git</string>
 		<key>AF8CF2C3-4060-450E-8CDA-9152FE224B87</key>
 		<string>ssh://github.com/ChatSecure/XMPPFramework.git</string>
 		<key>C5BB9D58-24F7-48D7-9DB9-1A482B68407E</key>
@@ -51,12 +51,12 @@
 		<string>../Submodules/OTRKit</string>
 		<key>6D6982A5-6FA9-4221-ADD0-43AFF144E3AA</key>
 		<string>../Submodules/googleChromeOpenInChrome</string>
+		<key>8B4CC983-FA70-43EF-95E0-B6D266E16A9F</key>
+		<string>..</string>
 		<key>91F12FBD-CA8B-4996-989A-115F266E576C</key>
 		<string>../Submodules/MWFeedParser</string>
 		<key>9A2C466B-FCE6-46DD-A514-91EF22CEC37C</key>
 		<string>../Submodules/LibOrange/Submodules/SBJson</string>
-		<key>A7DB03EB-517F-421D-A9D1-7767E83A9865</key>
-		<string>..</string>
 		<key>AF8CF2C3-4060-450E-8CDA-9152FE224B87</key>
 		<string>../Submodules/XMPPFramework</string>
 		<key>C5BB9D58-24F7-48D7-9DB9-1A482B68407E</key>
@@ -65,11 +65,11 @@
 		<string>../Submodules/facebook-ios-sdk</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/chrisballinger/ChatSecure-iOS.git</string>
+	<string>ssh://github.com/Aniways/ChatSecure-iOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>A7DB03EB-517F-421D-A9D1-7767E83A9865</string>
+	<string>8B4CC983-FA70-43EF-95E0-B6D266E16A9F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -84,7 +84,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A7DB03EB-517F-421D-A9D1-7767E83A9865</string>
+			<string>8B4CC983-FA70-43EF-95E0-B6D266E16A9F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ChatSecure-iOS</string>
 		</dict>
