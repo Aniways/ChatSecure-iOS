@@ -191,6 +191,7 @@
     AWIconOnDemandButton *iconOnDemandButton = [AWIconOnDemandButton new];
     [iconOnDemandButton setImage:[UIImage imageNamed:@"AW_keyboard_iconbutton"] forState:UIControlStateNormal];
     [iconOnDemandButton addTarget:self action:@selector(iconButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+     iconOnDemandButton.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleLeftMargin;
     iconOnDemandButton.tag = 0;
     iconOnDemandButton.textview = (AWTextView *)self.textView.internalTextView;
     iconOnDemandButton.frame = CGRectMake(self.sendButton.frame.origin.x - 24, self.sendButton.frame.origin.y, 20, self.sendButton.frame.size.height);
