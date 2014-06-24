@@ -57,7 +57,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [AWInit initAniwaysWithAppId:@"036B7C9E6A834E0FB0E8AC66B0FCBF56"];
+    [AWInit initAniwaysWithAppId:@"ChatSecureDemoApp"];
     
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     

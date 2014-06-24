@@ -3,7 +3,7 @@ platform :ios, "6.0"
 pod "AFNetworking", '2.0.3'
 pod "Appirater"
 pod "CocoaLumberjack"
-pod 'DAKeyboardControl', '~> 2.3'
+pod 'DAKeyboardControl', '2.3.0'
 pod "Facebook-iOS-SDK"
 pod 'HPGrowingTextView', '~> 1.1'
 pod "HockeySDK"
@@ -14,4 +14,4 @@ pod "SSKeychain"
 pod "UIAlertView-Blocks"
 pod 'gtm-oauth2', '~> 0.0.3'
 
-pod 'Aniways', :git => 'git@github.com:Aniways/aniways-pod.git', :branch => 'verizon-pod'
+pod 'Aniways', :git => 'git@github.com:Aniways/aniways-pod.git', :tag => '2.2.7'
